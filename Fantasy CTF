@@ -1,0 +1,28 @@
+Challenge Name: Fantasy CTF
+Category: General Skills
+Difficulty: Easy
+#linux #commands #basics
+
+Description:
+Play this short game to get familiar with terminal applications and some of the most important rules in scope for picoCTF.
+Connect to the program with netcat:
+$ nc verbal-sleep.picoctf.net 58889
+
+Step-by-step solution:
+1. Understand: 
+Terminal applications (also called command-line applications or console applications) are programs that run inside a terminal or command-line interface (CLI) — such as Command Prompt (cmd), PowerShell, Terminal (on macOS and Linux), or bash/zsh shells.
+Netcat is known as the "Swiss Army knife" of networking. It can read and write data across TCP and UDP network connections. That means it can send or receive data between computers, kind of like a lightweight chat or data transfer system — all from the terminal.
+Connect to the program with Netcat:
+$ nc verbal-sleep.picoctf.net 58889
+Explanation: You're connecting to a remote server at verbal-sleep.picoctf.net on port 58889 using Netcat.
+This is like calling someone on their phone number — the host is their name, and the port is their extension number.
+2. Proceed and answer:
+I wrote this command in my Kali Linux command line: nc verbal-sleep.picoctf.net 58889
+Then a king of conversations started. Press Enter to continue every time it asks, and at some point it will ask these questions, and the right answers are next to them:
+i- Create account multiple/private/shared: ✅Shared with friend
+ii- Play game or find flag: ✅Play game
+At the end of the conversation, you will get a flag automatically.
+3. Flag:
+picoCTF{m1113n1um_3d1710n_9a3a7333}
+
+
