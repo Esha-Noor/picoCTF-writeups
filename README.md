@@ -5,3 +5,4 @@ My journey solving picoCTF challenges with detailed steps, tools used, and lesso
 2. Binary Search (https://github.com/Esha-Noor/picoCTF-writeups/blob/main/Binary%20Search)
 3. Super SSH (https://github.com/Esha-Noor/picoCTF-writeups/blob/main/Super%20SSH)
 4. Time Machine (https://github.com/Esha-Noor/picoCTF-writeups/blob/main/Time%20Machine)
+5. n0s4n1ty 1 (https://github.com/Esha-Noor/picoCTF-writeups/blob/main/n0s4n1ty%201)
