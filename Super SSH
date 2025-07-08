@@ -1,0 +1,16 @@
+Challenge Name: Super SSH
+Category: General Skills
+Difficulty: Easy
+#linux #commands #basics #shell
+
+Description:
+Using a Secure Shell (SSH) is going to be pretty important. Additional details will be available after launching your challenge instance.
+
+Step-by-step solution:
+1. Launch instance
+2. Run:
+You have to make the correct command now from the description after the launch instance, i.e, ssh -p 53911 ctf-player@titan.picoctf.net
+Run it in command line of linux and it will ask for the password that will be present in the description as well. You will be able to see the flag at the end of running the command.
+3. Flag:
+picoCTF{s3cur3_c0nn3ct10n_07a987ac}
+
