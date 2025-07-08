@@ -1,0 +1,35 @@
+Challenge Name: Binary Search
+Category: General Skills
+Difficulty: Easy
+#linux #commands #basics #shell #LS
+
+Description:
+Want to play a game? As you use more of the shell, you might be interested in how they work! Binary search is a classic algorithm used to quickly find an item in a sorted list. Can you find the flag? You'll have 1000 possibilities and only 10 guesses.
+Cyber security often has a huge amount of data to look through - from logs, vulnerability reports, and forensics. Practicing the fundamentals manually might help you in the future when you have to write your own tools!
+You can download the challenge files here:
+challenge.zip (https://artifacts.picoctf.net/c_atlas/19/challenge.zip)
+
+Step-by-step solution:
+1. Understanding:
+We will be guessing the number in it. 
+2. Setup:
+First of all, download the challenge.zip file on the machine.
+Unzip it in the Linux command line and make sure you are in the same directory where the file is, using the command: unzip challenge.zip 
+3. Launch:
+Now, click on the 'launch instance' button, which will give more details
+Copy the command in bash of Linux: ssh -p 58737 ctf-player@atlas.picoctf.net 
+It will ask (yes/no), so proceed by typing ✅ 'Yes' in the command line.
+Then it will ask password that will be written in the description as well. Paste it there and Enter.
+4. Guess:
+Now the game will start and will ask you to guess the number it has stored, it will be any random number, everytime it will be different as you run the game. So we will be using technique of 'half' like start with '500' and IF it says Higher, it means you have to go higher now and take greater number from which you got half og like in this case 1000 and 1 half was 500, so 100 was highest number so now take half of 1000 and 500 that is 750, and if then it says lower then take lesser number like 500 and previous number 750, so therehalf is 625 and so on.
+After you guess the number, you will get a flag.
+If you couldn't then try again to run above command until you get flag.
+5. Flag:
+picoCTF{g00d_gu355_1597707f}
+
+(Your flag will be different from mine)
+
+
+
+
+
